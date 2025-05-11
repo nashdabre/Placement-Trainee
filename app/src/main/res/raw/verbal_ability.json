@@ -1,0 +1,35 @@
+{
+  "topic": "Verbal Ability",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Select the synonym for the word 'Pensive'.",
+      "options": ["Happy", "Sad", "Thoughtful", "Angry"],
+      "answer": "Thoughtful"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is an antonym of 'Abundant'?",
+      "options": ["Sparse", "Plentiful", "Bountiful", "Overflowing"],
+      "answer": "Sparse"
+    },
+    {
+      "id": 3,
+      "question": "Choose the correctly spelled word.",
+      "options": ["Accommodate", "Acomodate", "Acommadate", "Acomadate"],
+      "answer": "Accommodate"
+    },
+    {
+      "id": 4,
+      "question": "Identify the error: She don't know the answer.",
+      "options": ["She", "don't", "know", "No error"],
+      "answer": "don't"
+    },
+    {
+      "id": 5,
+      "question": "What is the opposite of 'Courageous'?",
+      "options": ["Timid", "Bold", "Daring", "Brave"],
+      "answer": "Timid"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "topic": "Code Snippets",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What will be the output of the following code?\n\nint a = 5;\nSystem.out.println(a++);",
+      "options": ["4", "5", "6", "Error"],
+      "answer": "5"
+    },
+    {
+      "id": 2,
+      "question": "What will be the output of the following code?\n\nint a = 10;\nint b = 5;\na += b;\nSystem.out.println(a);",
+      "options": ["15", "5", "10", "Error"],
+      "answer": "15"
+    },
+    {
+      "id": 3,
+      "question": "What will be the result of the following code?\n\nfor(int i = 0; i < 3; i++) {\n   System.out.println(i);\n}",
+      "options": ["0 1 2", "1 2 3", "0 1 2 3", "Error"],
+      "answer": "0 1 2"
+    },
+    {
+      "id": 4,
+      "question": "What is the output of this Python code?\n\na = [1, 2, 3]\nb = a\na.append(4)\nprint(b)",
+      "options": ["[1, 2, 3]", "[1, 2, 3, 4]", "Error", "None of the above"],
+      "answer": "[1, 2, 3, 4]"
+    },
+    {
+      "id": 5,
+      "question": "What will be the output of this code?\n\nint x = 5;\nif(x == 5) {\n    System.out.println(\"x is 5\");\n} else {\n    System.out.println(\"x is not 5\");\n}",
+      "options": ["x is 5", "x is not 5", "Error", "None of the above"],
+      "answer": "x is 5"
+    }
+  ]
+}

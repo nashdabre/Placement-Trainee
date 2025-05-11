@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "865016390403",
+    "project_id": "placement-trainee-aa87a",
+    "storage_bucket": "placement-trainee-aa87a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865016390403:android:2666631bc2b5bcf0697f36",
+        "android_client_info": {
+          "package_name": "com.example.placementtrainee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0l9ENTcgL9w1dSTI4gtqewfqfYk18WEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

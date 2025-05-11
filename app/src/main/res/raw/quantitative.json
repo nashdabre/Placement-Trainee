@@ -1,0 +1,35 @@
+{
+  "topic": "Quantitative",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the square root of 144?",
+      "options": ["10", "11", "12", "13"],
+      "answer": "12"
+    },
+    {
+      "id": 2,
+      "question": "If 5x = 20, what is the value of x?",
+      "options": ["2", "4", "5", "6"],
+      "answer": "4"
+    },
+    {
+      "id": 3,
+      "question": "A train 100 m long crosses a bridge of 150 m in 10 seconds. What is the speed of the train?",
+      "options": ["25 m/s", "15 m/s", "10 m/s", "20 m/s"],
+      "answer": "25 m/s"
+    },
+    {
+      "id": 4,
+      "question": "What is 20% of 250?",
+      "options": ["50", "45", "55", "60"],
+      "answer": "50"
+    },
+    {
+      "id": 5,
+      "question": "Simplify: 8 ÷ 2(2 + 2).",
+      "options": ["1", "8", "16", "4"],
+      "answer": "16"
+    }
+  ]
+}

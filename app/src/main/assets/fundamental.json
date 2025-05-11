@@ -1,0 +1,629 @@
+{
+  "topics": [
+    {
+      "topic": "Database Management",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which of the following is a feature of a DBMS?",
+          "options": ["Data Redundancy", "Data Inconsistency", "Data Independence", "Complex File Management"],
+          "answer": "Data Independence"
+        },
+        {
+          "id": 2,
+          "question": "Which language is used to define the structure of a database?",
+          "options": ["DML", "DCL", "DDL", "SQL"],
+          "answer": "DDL"
+        },
+        {
+          "id": 3,
+          "question": "Which of the following is a DML command?",
+          "options": ["CREATE", "ALTER", "INSERT", "DROP"],
+          "answer": "INSERT"
+        },
+        {
+          "id": 4,
+          "question": "What does the ACID property of a transaction stand for?",
+          "options": ["Atomicity, Consistency, Isolation, Durability", "Accuracy, Consistency, Integrity, Durability", "Atomicity, Correctness, Isolation, Dependency", "Atomicity, Concurrency, Independence, Durability"],
+          "answer": "Atomicity, Consistency, Isolation, Durability"
+        },
+        {
+          "id": 5,
+          "question": "Which of these is not a type of database model?",
+          "options": ["Hierarchical", "Relational", "Network", "Linked List"],
+          "answer": "Linked List"
+        },
+        {
+          "id": 6,
+          "question": "Which of the following is used to remove a table from a database?",
+          "options": ["DELETE", "REMOVE", "ERASE", "DROP"],
+          "answer": "DROP"
+        },
+        {
+          "id": 7,
+          "question": "Which keyword is used to find unique values in SQL?",
+          "options": ["DISTINCT", "UNIQUE", "ONLY", "SEPARATE"],
+          "answer": "DISTINCT"
+        },
+        {
+          "id": 8,
+          "question": "A foreign key in a table means:",
+          "options": ["A key that refers to a unique key in the same table", "A key that refers to a primary key in another table", "A key used to encrypt data", "A key not used in the database"],
+          "answer": "A key that refers to a primary key in another table"
+        },
+        {
+          "id": 9,
+          "question": "Which of the following ensures referential integrity?",
+          "options": ["Primary Key", "Foreign Key", "Check Constraint", "Index"],
+          "answer": "Foreign Key"
+        },
+        {
+          "id": 10,
+          "question": "Which normal form removes partial dependency?",
+          "options": ["1NF", "2NF", "3NF", "BCNF"],
+          "answer": "2NF"
+        },
+        {
+          "id": 11,
+          "question": "Which of the following is used to retrieve data from more than one table?",
+          "options": ["JOIN", "MERGE", "GROUP", "ORDER"],
+          "answer": "JOIN"
+        },
+        {
+          "id": 12,
+          "question": "Which SQL clause is used to filter rows?",
+          "options": ["ORDER BY", "WHERE", "GROUP BY", "HAVING"],
+          "answer": "WHERE"
+        },
+        {
+          "id": 13,
+          "question": "Which command is used to modify a column in an existing table?",
+          "options": ["CHANGE", "MODIFY", "ALTER", "UPDATE"],
+          "answer": "ALTER"
+        },
+        {
+          "id": 14,
+          "question": "Which of the following is not a valid aggregate function in SQL?",
+          "options": ["SUM", "AVG", "TOTAL", "COUNT"],
+          "answer": "TOTAL"
+        },
+        {
+          "id": 15,
+          "question": "What is the output of the following SQL query?\n\n```sql\nSELECT COUNT(*) FROM Students WHERE age > 18;\n```\n(Assume 5 students are older than 18.)",
+          "options": ["0", "5", "1", "All students"],
+          "answer": "5"
+        },
+        {
+          "id": 16,
+          "question": "Which of the following operations is not allowed in a view?",
+          "options": ["SELECT", "INSERT", "DELETE", "DROP"],
+          "answer": "DROP"
+        },
+        {
+          "id": 17,
+          "question": "Which storage structure is best for range queries?",
+          "options": ["Hash Index", "B+ Tree", "Bitmap Index", "Array"],
+          "answer": "B+ Tree"
+        },
+        {
+          "id": 18,
+          "question": "Which isolation level provides the least amount of concurrency?",
+          "options": ["Read Uncommitted", "Read Committed", "Repeatable Read", "Serializable"],
+          "answer": "Serializable"
+        },
+        {
+          "id": 19,
+          "question": "Which keyword is used to remove duplicate rows in a query result?",
+          "options": ["ONLY", "DISTINCT", "REMOVE", "FILTER"],
+          "answer": "DISTINCT"
+        },
+        {
+          "id": 20,
+          "question": "What does SQL stand for?",
+          "options": ["Structured Query Language", "Strong Query Language", "Standard Query Language", "Simple Query Language"],
+          "answer": "Structured Query Language"
+        }
+      ]
+    },
+    {
+      "topic": "Operating System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which of the following is **not** a function of an operating system?",
+          "options": ["Memory management", "Compiler design", "File system management", "Process management"],
+          "answer": "Compiler design"
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is an example of a real-time operating system?",
+          "options": ["Windows 10", "Linux", "VxWorks", "MS-DOS"],
+          "answer": "VxWorks"
+        },
+        {
+          "id": 3,
+          "question": "Which scheduling algorithm gives the **minimum average waiting time** for a set of processes?",
+          "options": ["FCFS", "SJF", "Round Robin", "Priority Scheduling"],
+          "answer": "SJF"
+        },
+        {
+          "id": 4,
+          "question": "Which of the following is a **non-preemptive** scheduling algorithm?",
+          "options": ["SJF", "Round Robin", "Priority (with preemption)", "Multilevel Queue"],
+          "answer": "SJF"
+        },
+        {
+          "id": 5,
+          "question": "Which component of the OS **loads the operating system into memory**?",
+          "options": ["Compiler", "Loader", "Bootstrap", "Assembler"],
+          "answer": "Bootstrap"
+        },
+        {
+          "id": 6,
+          "question": "In a multithreaded process, each thread has its own:",
+          "options": ["Data section", "Heap", "Program counter and stack", "Code section"],
+          "answer": "Program counter and stack"
+        },
+        {
+          "id": 7,
+          "question": "Deadlock can be prevented by:",
+          "options": ["Allowing mutual exclusion", "Using circular wait", "Ignoring hold and wait", "Allowing non-preemption"],
+          "answer": "Ignoring hold and wait"
+        },
+        {
+          "id": 8,
+          "question": "Which of the following is **not** a necessary condition for deadlock?",
+          "options": ["Mutual exclusion", "Preemption", "Hold and wait", "Circular wait"],
+          "answer": "Preemption"
+        },
+        {
+          "id": 9,
+          "question": "Page replacement algorithms are used in:",
+          "options": ["Disk scheduling", "Virtual memory", "CPU scheduling", "File management"],
+          "answer": "Virtual memory"
+        },
+        {
+          "id": 10,
+          "question": "Which page replacement algorithm may suffer from **Belady’s anomaly**?",
+          "options": ["LRU", "Optimal", "FIFO", "Clock"],
+          "answer": "FIFO"
+        },
+        {
+          "id": 11,
+          "question": "In UNIX, which command is used to list all running processes?",
+          "options": ["ps", "ls", "top", "jobs"],
+          "answer": "ps"
+        },
+        {
+          "id": 12,
+          "question": "Which memory allocation technique can **suffer from external fragmentation**?",
+          "options": ["Paging", "Segmentation", "Contiguous memory allocation", "Virtual memory"],
+          "answer": "Contiguous memory allocation"
+        },
+        {
+          "id": 13,
+          "question": "Which of the following is not a type of kernel?",
+          "options": ["Monolithic", "Microkernel", "Hybrid", "Thread kernel"],
+          "answer": "Thread kernel"
+        },
+        {
+          "id": 14,
+          "question": "In Round Robin scheduling, the time allocated to each process is called:",
+          "options": ["Slice", "Burst time", "Quantum", "Time slot"],
+          "answer": "Quantum"
+        },
+        {
+          "id": 15,
+          "question": "Which file allocation method leads to **maximum file access speed**?",
+          "options": ["Contiguous allocation", "Linked allocation", "Indexed allocation", "Hash allocation"],
+          "answer": "Contiguous allocation"
+        },
+        {
+          "id": 16,
+          "question": "The command to check the current directory in Linux is:",
+          "options": ["pwd", "cd", "dir", "ls"],
+          "answer": "pwd"
+        },
+        {
+          "id": 17,
+          "question": "Thrashing occurs when:",
+          "options": ["CPU utilization is low", "Processes are suspended", "Too much paging happens", "Disk space is full"],
+          "answer": "Too much paging happens"
+        },
+        {
+          "id": 18,
+          "question": "Which system call is used to create a new process in UNIX?",
+          "options": ["create()", "exec()", "fork()", "start()"],
+          "answer": "fork()"
+        },
+        {
+          "id": 19,
+          "question": "Which of the following statements is true about virtual memory?",
+          "options": ["It is larger than physical memory", "It is smaller than physical memory", "It is equal to cache memory", "It is a type of ROM"],
+          "answer": "It is larger than physical memory"
+        },
+        {
+          "id": 20,
+          "question": "Which of the following provides **CPU scheduling and dispatching**?",
+          "options": ["Scheduler", "Loader", "Memory Manager", "Device Driver"],
+          "answer": "Scheduler"
+        }
+      ]
+    },
+    {
+      "topic": "Computer Science",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which of the following is the **brain of the computer**?",
+          "options": ["RAM", "Hard Drive", "CPU", "GPU"],
+          "answer": "CPU"
+        },
+        {
+          "id": 2,
+          "question": "Which data structure uses **FIFO** (First-In-First-Out) ordering?",
+          "options": ["Stack", "Queue", "Tree", "Graph"],
+          "answer": "Queue"
+        },
+        {
+          "id": 3,
+          "question": "Which number system is **used internally** by computers?",
+          "options": ["Decimal", "Octal", "Binary", "Hexadecimal"],
+          "answer": "Binary"
+        },
+        {
+          "id": 4,
+          "question": "What does **HTML** stand for?",
+          "options": ["HighText Machine Language", "HyperText and links Markup Language", "HyperText Markup Language", "None of these"],
+          "answer": "HyperText Markup Language"
+        },
+        {
+          "id": 5,
+          "question": "Which component is **volatile memory**?",
+          "options": ["Hard Drive", "SSD", "RAM", "ROM"],
+          "answer": "RAM"
+        },
+        {
+          "id": 6,
+          "question": "Which logic gate gives a HIGH output when **at least one input is HIGH**?",
+          "options": ["AND", "OR", "NAND", "NOR"],
+          "answer": "OR"
+        },
+        {
+          "id": 7,
+          "question": "In object-oriented programming, which of the following is **not** a principle?",
+          "options": ["Encapsulation", "Inheritance", "Polymorphism", "Compilation"],
+          "answer": "Compilation"
+        },
+        {
+          "id": 8,
+          "question": "Which sorting algorithm is **best for small data sets** and simple to implement?",
+          "options": ["Quick Sort", "Merge Sort", "Bubble Sort", "Heap Sort"],
+          "answer": "Bubble Sort"
+        },
+        {
+          "id": 9,
+          "question": "What does **IP** stand for in networking?",
+          "options": ["Internet Provider", "Internet Protocol", "Internal Protocol", "Internet Profile"],
+          "answer": "Internet Protocol"
+        },
+        {
+          "id": 10,
+          "question": "Which of the following is an **example of an operating system**?",
+          "options": ["Python", "Linux", "HTML", "MS Excel"],
+          "answer": "Linux"
+        },
+        {
+          "id": 11,
+          "question": "Which programming language is known for its **use in artificial intelligence**?",
+          "options": ["COBOL", "Prolog", "C", "Pascal"],
+          "answer": "Prolog"
+        },
+        {
+          "id": 12,
+          "question": "Which of the following is **not** a primary function of an operating system?",
+          "options": ["Process management", "Compiler management", "Memory management", "File management"],
+          "answer": "Compiler management"
+        },
+        {
+          "id": 13,
+          "question": "The result of `2 + 3 * 4` in most programming languages is:",
+          "options": ["20", "14", "24", "18"],
+          "answer": "14"
+        },
+        {
+          "id": 14,
+          "question": "Which of the following represents **software**?",
+          "options": ["Motherboard", "CPU", "MS Word", "RAM"],
+          "answer": "MS Word"
+        },
+        {
+          "id": 15,
+          "question": "Which part of the computer **executes instructions**?",
+          "options": ["RAM", "ROM", "ALU", "Cache"],
+          "answer": "ALU"
+        },
+        {
+          "id": 16,
+          "question": "What is the **main function** of the compiler?",
+          "options": ["Translate code to machine language", "Store data", "Run programs", "Clean the memory"],
+          "answer": "Translate code to machine language"
+        },
+        {
+          "id": 17,
+          "question": "Which of the following is a **high-level programming language**?",
+          "options": ["Assembly", "C", "Machine code", "Binary"],
+          "answer": "C"
+        },
+        {
+          "id": 18,
+          "question": "A **byte** consists of how many bits?",
+          "options": ["4", "8", "16", "32"],
+          "answer": "8"
+        },
+        {
+          "id": 19,
+          "question": "Which of the following is used to **connect computers in a network**?",
+          "options": ["Router", "Printer", "Scanner", "Monitor"],
+          "answer": "Router"
+        },
+        {
+          "id": 20,
+          "question": "Which of the following is **not a type of computer virus**?",
+          "options": ["Trojan Horse", "Worm", "Spyware", "Compiler"],
+          "answer": "Compiler"
+        }
+      ]
+    },
+    {
+      "topic": "Microprocessor",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which was the **first commercially available microprocessor**?",
+          "options": ["Intel 4004", "Intel 8085", "Motorola 6800", "Zilog Z80"],
+          "answer": "Intel 4004"
+        },
+        {
+          "id": 2,
+          "question": "The **Intel 8085** microprocessor has how many address lines?",
+          "options": ["8", "16", "20", "32"],
+          "answer": "16"
+        },
+        {
+          "id": 3,
+          "question": "The clock speed of a microprocessor is measured in:",
+          "options": ["MHz", "Kg", "Volts", "Bytes"],
+          "answer": "MHz"
+        },
+        {
+          "id": 4,
+          "question": "Which register in 8085 is **used as a counter in loops**?",
+          "options": ["Accumulator", "Program Counter", "Stack Pointer", "Register B or C"],
+          "answer": "Register B or C"
+        },
+        {
+          "id": 5,
+          "question": "What is the size of the **Accumulator** in 8085?",
+          "options": ["4-bit", "8-bit", "16-bit", "32-bit"],
+          "answer": "8-bit"
+        },
+        {
+          "id": 6,
+          "question": "Which instruction is used to **load accumulator with immediate data**?",
+          "options": ["MOV A, M", "LDA 2050", "MVI A, 32H", "STA 3050"],
+          "answer": "MVI A, 32H"
+        },
+        {
+          "id": 7,
+          "question": "Which microprocessor has a **16-bit data bus**?",
+          "options": ["8085", "8086", "4004", "8088"],
+          "answer": "8086"
+        },
+        {
+          "id": 8,
+          "question": "The stack in 8085 is implemented in:",
+          "options": ["RAM", "ROM", "Register", "Accumulator"],
+          "answer": "RAM"
+        },
+        {
+          "id": 9,
+          "question": "Which flag is **set when the result is zero** after an operation in 8085?",
+          "options": ["Carry", "Auxiliary Carry", "Zero", "Sign"],
+          "answer": "Zero"
+        },
+        {
+          "id": 10,
+          "question": "What is the function of the **Program Counter**?",
+          "options": ["Store operand", "Halt the program", "Point to next instruction", "Store result"],
+          "answer": "Point to next instruction"
+        },
+        {
+          "id": 11,
+          "question": "Which instruction is used to **jump unconditionally** in 8085?",
+          "options": ["MOV", "JMP", "CALL", "RET"],
+          "answer": "JMP"
+        },
+        {
+          "id": 12,
+          "question": "In 8085, how many **general-purpose registers** are there?",
+          "options": ["4", "5", "6", "7"],
+          "answer": "6"
+        },
+        {
+          "id": 13,
+          "question": "Which of the following is a **machine cycle** of 8085?",
+          "options": ["Fetch", "Execute", "Halt", "Start"],
+          "answer": "Fetch"
+        },
+        {
+          "id": 14,
+          "question": "The instruction `IN 00H` is used to:",
+          "options": ["Send data to port", "Receive data from port", "Increment port", "No operation"],
+          "answer": "Receive data from port"
+        },
+        {
+          "id": 15,
+          "question": "What is the width of the **data bus** in Intel 8085?",
+          "options": ["4-bit", "8-bit", "16-bit", "32-bit"],
+          "answer": "8-bit"
+        },
+        {
+          "id": 16,
+          "question": "The **HL register pair** in 8085 is mainly used to:",
+          "options": ["Hold I/O address", "Act as a memory pointer", "Perform multiplication", "None"],
+          "answer": "Act as a memory pointer"
+        },
+        {
+          "id": 17,
+          "question": "Which signal indicates that the microprocessor is **ready to receive data**?",
+          "options": ["HOLD", "READY", "ALE", "SID"],
+          "answer": "READY"
+        },
+        {
+          "id": 18,
+          "question": "In 8086, the address bus is of:",
+          "options": ["16 bits", "20 bits", "24 bits", "32 bits"],
+          "answer": "20 bits"
+        },
+        {
+          "id": 19,
+          "question": "Which interrupt has the **highest priority** in 8085?",
+          "options": ["RST7.5", "TRAP", "INTR", "RST6.5"],
+          "answer": "TRAP"
+        },
+        {
+          "id": 20,
+          "question": "The **ALE (Address Latch Enable)** signal is used to:",
+          "options": ["Latch the lower byte of the address", "Latch data", "Enable accumulator", "None"],
+          "answer": "Latch the lower byte of the address"
+        }
+      ]
+    },
+    {
+    "topic": "Analysis",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the worst-case time complexity of binary search?",
+        "options": ["O(n)", "O(n log n)", "O(log n)", "O(1)"],
+        "answer": "O(log n)"
+      },
+      {
+        "id": 2,
+        "question": "Which of the following algorithm design techniques uses recursion?",
+        "options": ["Dynamic Programming", "Divide and Conquer", "Greedy", "Backtracking"],
+        "answer": "Divide and Conquer"
+      },
+      {
+        "id": 3,
+        "question": "Time complexity of the best case for linear search is:",
+        "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+        "answer": "O(1)"
+      },
+      {
+        "id": 4,
+        "question": "What is the time complexity of Bubble Sort in the worst case?",
+        "options": ["O(n)", "O(log n)", "O(n log n)", "O(n^2)"],
+        "answer": "O(n^2)"
+      },
+      {
+        "id": 5,
+        "question": "Which notation describes the **upper bound** of an algorithm?",
+        "options": ["O(n)", "Ω(n)", "Θ(n)", "ω(n)"],
+        "answer": "O(n)"
+      },
+      {
+        "id": 6,
+        "question": "What is the space complexity of Merge Sort?",
+        "options": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+        "answer": "O(n)"
+      },
+      {
+        "id": 7,
+        "question": "In Big-O notation, which is the dominant term in `3n^2 + 5n + 10`?",
+        "options": ["3n^2", "5n", "10", "All are equal"],
+        "answer": "3n^2"
+      },
+      {
+        "id": 8,
+        "question": "Which of the following algorithms has O(n log n) time complexity?",
+        "options": ["Selection Sort", "Insertion Sort", "Merge Sort", "Bubble Sort"],
+        "answer": "Merge Sort"
+      },
+      {
+        "id": 9,
+        "question": "What is the average-case time complexity of Quick Sort?",
+        "options": ["O(n)", "O(n log n)", "O(log n)", "O(n^2)"],
+        "answer": "O(n log n)"
+      },
+      {
+        "id": 10,
+        "question": "Which technique is used in Dijkstra's algorithm?",
+        "options": ["Dynamic Programming", "Greedy", "Backtracking", "Brute Force"],
+        "answer": "Greedy"
+      },
+      {
+        "id": 11,
+        "question": "Which of these notations gives the tight bound (average case)?",
+        "options": ["O", "Ω", "Θ", "o"],
+        "answer": "Θ"
+      },
+      {
+        "id": 12,
+        "question": "Which of the following is NOT a characteristic of Divide and Conquer?",
+        "options": ["Divide", "Merge", "Greedy", "Conquer"],
+        "answer": "Greedy"
+      },
+      {
+        "id": 13,
+        "question": "Which algorithm is used for **finding shortest paths** in weighted graphs?",
+        "options": ["Kruskal's", "Prim's", "Dijkstra's", "DFS"],
+        "answer": "Dijkstra's"
+      },
+      {
+        "id": 14,
+        "question": "What is the best-case time complexity of Quick Sort?",
+        "options": ["O(n^2)", "O(n log n)", "O(n)", "O(log n)"],
+        "answer": "O(n log n)"
+      },
+      {
+        "id": 15,
+        "question": "The recurrence relation `T(n) = 2T(n/2) + n` corresponds to which algorithm?",
+        "options": ["Binary Search", "Merge Sort", "Bubble Sort", "DFS"],
+        "answer": "Merge Sort"
+      },
+      {
+        "id": 16,
+        "question": "Which sorting algorithm is **in-place and unstable**?",
+        "options": ["Quick Sort", "Merge Sort", "Insertion Sort", "Bubble Sort"],
+        "answer": "Quick Sort"
+      },
+      {
+        "id": 17,
+        "question": "Which one of the following is not a Divide and Conquer algorithm?",
+        "options": ["Merge Sort", "Quick Sort", "Binary Search", "Dijkstra's Algorithm"],
+        "answer": "Dijkstra's Algorithm"
+      },
+      {
+        "id": 18,
+        "question": "Which data structure is used in the recursive implementation of DFS?",
+        "options": ["Queue", "Stack", "Heap", "Array"],
+        "answer": "Stack"
+      },
+      {
+        "id": 19,
+        "question": "Which algorithm is the best for finding Minimum Spanning Tree?",
+        "options": ["Dijkstra's", "Prim's", "Bellman-Ford", "DFS"],
+        "answer": "Prim's"
+      },
+      {
+        "id": 20,
+        "question": "Which algorithm guarantees to find the **optimal** solution using dynamic programming?",
+        "options": ["Greedy", "Backtracking", "Divide & Conquer", "Dynamic Programming"],
+        "answer": "Dynamic Programming"
+      }
+    ]
+    }
+  ]
+}

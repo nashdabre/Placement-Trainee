@@ -1,0 +1,275 @@
+{
+  "topics": [
+    {
+      "topic": "Verbal Reasoning",
+      "questions": [
+        {
+          "id": 1,
+          "question": "If all cats are dogs and some dogs are mice, which of the following is definitely true?",
+          "options": ["All cats are mice", "Some mice are cats", "Some dogs are cats", "No mice are cats"],
+          "answer": "Some dogs are cats"
+        },
+        {
+          "id": 2,
+          "question": "Find the missing term: B, E, H, K, ?",
+          "options": ["L", "M", "N", "O"],
+          "answer": "N"
+        },
+        {
+          "id": 3,
+          "question": "In a certain code, 'GREAT' is written as 'TAREG'. How is 'SMART' written?",
+          "options": ["TRAMS", "TMRSA", "SRMAT", "TARMS"],
+          "answer": "TRAMS"
+        },
+        {
+          "id": 4,
+          "question": "Which word does not belong in the group?",
+          "options": ["Apple", "Banana", "Mango", "Carrot"],
+          "answer": "Carrot"
+        },
+        {
+          "id": 5,
+          "question": "Which word is the odd one out?",
+          "options": ["Book", "Paper", "Pen", "Table"],
+          "answer": "Table"
+        },
+        {
+          "id": 6,
+          "question": "Which number should come next in the series: 2, 6, 12, 20, ?",
+          "options": ["28", "30", "32", "34"],
+          "answer": "30"
+        },
+        {
+          "id": 7,
+          "question": "What is the next letter in the series: A, C, F, J, O, ?",
+          "options": ["P", "S", "T", "U"],
+          "answer": "U"
+        },
+        {
+          "id": 8,
+          "question": "If FLOWER is coded as GJQYGT, what is TREE?",
+          "options": ["VUGG", "VSFF", "UQFF", "VQFF"],
+          "answer": "VQFF"
+        },
+        {
+          "id": 9,
+          "question": "Which of the following is an example of an analogy?",
+          "options": ["Dog : Animal :: Rose : Flower", "Pen : Write", "Book : Read", "Chair : Sit"],
+          "answer": "Dog : Animal :: Rose : Flower"
+        },
+        {
+          "id": 10,
+          "question": "Choose the correct pair: Hand is to Glove as Foot is to?",
+          "options": ["Sock", "Hat", "Shirt", "Glasses"],
+          "answer": "Sock"
+        }
+      ]
+    },
+
+    {
+      "topic": "Non-Verbal Reasoning",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which shape comes next in the pattern?",
+          "options": ["Square", "Circle", "Triangle", "Hexagon"],
+          "answer": "Triangle"
+        },
+        {
+          "id": 2,
+          "question": "Which figure is the odd one out?",
+          "options": ["A", "B", "C", "D"],
+          "answer": "C"
+        },
+        {
+          "id": 3,
+          "question": "Which figure completes the pattern?",
+          "options": ["P", "Q", "R", "S"],
+          "answer": "R"
+        },
+        {
+          "id": 4,
+          "question": "Find the missing part in the given shape sequence.",
+          "options": ["X", "Y", "Z", "W"],
+          "answer": "Z"
+        },
+        {
+          "id": 5,
+          "question": "Which shape does not belong to the group?",
+          "options": ["Pentagon", "Hexagon", "Octagon", "Triangle"],
+          "answer": "Triangle"
+        },
+        {
+          "id": 6,
+          "question": "What comes next in the pattern: ● ▲ ■ ● ▲ ?",
+          "options": ["■", "●", "▲", "◆"],
+          "answer": "■"
+        },
+        {
+          "id": 7,
+          "question": "Which figure is a reflection of the given figure?",
+          "options": ["A", "B", "C", "D"],
+          "answer": "B"
+        },
+        {
+          "id": 8,
+          "question": "Find the mirror image of the given shape.",
+          "options": ["M", "N", "O", "P"],
+          "answer": "O"
+        },
+        {
+          "id": 9,
+          "question": "Which pattern is identical to the given figure?",
+          "options": ["X", "Y", "Z", "W"],
+          "answer": "X"
+        },
+        {
+          "id": 10,
+          "question": "Which shape is the rotated version of the original?",
+          "options": ["1", "2", "3", "4"],
+          "answer": "3"
+        }
+      ]
+    },
+    {
+      "topic": "Blood Relation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "A is the father of B, but B is not the son of A. What is the relation between A and B?",
+          "options": ["B is A's daughter", "B is A's nephew", "B is A's cousin", "B is A's son"],
+          "answer": "B is A's daughter"
+        },
+        {
+          "id": 2,
+          "question": "Pointing to a woman, Rahul said, 'She is the daughter-in-law of my grandfather's only son.' Who is the woman to Rahul?",
+          "options": ["Mother", "Sister", "Aunt", "Cousin"],
+          "answer": "Mother"
+        },
+        {
+          "id": 3,
+          "question": "If P is the father of Q and R, and Q is the brother of S, how is S related to R?",
+          "options": ["Brother", "Sister", "Uncle", "Cousin"],
+          "answer": "Sister"
+        },
+        {
+          "id": 4,
+          "question": "If A + B means A is the father of B, and A - B means A is the sister of B, what does P + Q - R mean?",
+          "options": ["P is the father of R", "Q is the father of R", "P is the uncle of R", "R is the mother of Q"],
+          "answer": "P is the uncle of R"
+        },
+        {
+          "id": 5,
+          "question": "A woman introduces a man as the son of her father's only son. Who is the man to the woman?",
+          "options": ["Father", "Brother", "Son", "Nephew"],
+          "answer": "Son"
+        }
+      ]
+    },
+    {
+      "topic": "Analogy",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Dog : Bark :: Cat : ?",
+          "options": ["Meow", "Roar", "Sing", "Squeak"],
+          "answer": "Meow"
+        },
+        {
+          "id": 2,
+          "question": "Pen : Write :: Knife : ?",
+          "options": ["Cut", "Paint", "Stitch", "Measure"],
+          "answer": "Cut"
+        },
+        {
+          "id": 3,
+          "question": "Doctor : Hospital :: Teacher : ?",
+          "options": ["School", "Library", "Office", "Laboratory"],
+          "answer": "School"
+        },
+        {
+          "id": 4,
+          "question": "Oxygen : Respiration :: Fuel : ?",
+          "options": ["Burning", "Cooling", "Freezing", "Heating"],
+          "answer": "Burning"
+        },
+        {
+          "id": 5,
+          "question": "Bird : Nest :: Spider : ?",
+          "options": ["Web", "Tree", "Hole", "Burrow"],
+          "answer": "Web"
+        }
+      ]
+    },
+    {
+      "topic": "Classification",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Find the odd one out: Apple, Banana, Mango, Carrot",
+          "options": ["Apple", "Banana", "Mango", "Carrot"],
+          "answer": "Carrot"
+        },
+        {
+          "id": 2,
+          "question": "Find the odd one out: Lion, Tiger, Elephant, Cheetah",
+          "options": ["Lion", "Tiger", "Elephant", "Cheetah"],
+          "answer": "Elephant"
+        },
+        {
+          "id": 3,
+          "question": "Find the odd one out: Oxygen, Hydrogen, Copper, Nitrogen",
+          "options": ["Oxygen", "Hydrogen", "Copper", "Nitrogen"],
+          "answer": "Copper"
+        },
+        {
+          "id": 4,
+          "question": "Find the odd one out: Square, Rectangle, Circle, Triangle",
+          "options": ["Square", "Rectangle", "Circle", "Triangle"],
+          "answer": "Circle"
+        },
+        {
+          "id": 5,
+          "question": "Find the odd one out: Pen, Pencil, Eraser, Notebook",
+          "options": ["Pen", "Pencil", "Eraser", "Notebook"],
+          "answer": "Notebook"
+        }
+      ]
+    },
+    {
+      "topic": "Series Completion",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Find the missing number: 2, 6, 12, 20, ?",
+          "options": ["28", "30", "32", "34"],
+          "answer": "30"
+        },
+        {
+          "id": 2,
+          "question": "Find the missing letter: A, C, E, G, ?",
+          "options": ["H", "I", "J", "K"],
+          "answer": "I"
+        },
+        {
+          "id": 3,
+          "question": "Find the missing number: 1, 4, 9, 16, ?",
+          "options": ["20", "25", "30", "36"],
+          "answer": "25"
+        },
+        {
+          "id": 4,
+          "question": "Find the missing letter: Z, X, V, T, ?",
+          "options": ["R", "S", "Q", "P"],
+          "answer": "R"
+        },
+        {
+          "id": 5,
+          "question": "Find the missing number: 3, 6, 11, 18, ?",
+          "options": ["25", "26", "27", "28"],
+          "answer": "27"
+        }
+      ]
+    }
+  ]
+}

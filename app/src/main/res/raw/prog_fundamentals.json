@@ -1,0 +1,35 @@
+{
+  "topic": "Programming Fundamentals",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does the acronym 'OOP' stand for?",
+      "options": ["Object-Oriented Programming", "Object-Oriented Process", "Operation Over Process", "Object Oriented Parsing"],
+      "answer": "Object-Oriented Programming"
+    },
+    {
+      "id": 2,
+      "question": "What is the time complexity of a binary search algorithm?",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(n^2)"],
+      "answer": "O(log n)"
+    },
+    {
+      "id": 3,
+      "question": "Which data structure is used for implementing LIFO?",
+      "options": ["Queue", "Stack", "Array", "Linked List"],
+      "answer": "Stack"
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is not a primitive data type?",
+      "options": ["int", "float", "String", "boolean"],
+      "answer": "String"
+    },
+    {
+      "id": 5,
+      "question": "What does 'int' stand for in programming?",
+      "options": ["Internet", "Integer", "Interval", "Interaction"],
+      "answer": "Integer"
+    }
+  ]
+}

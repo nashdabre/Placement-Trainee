@@ -1,0 +1,35 @@
+{
+  "topic": "Logical Reasoning",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Find the missing number: 3, 6, 9, 12, ?",
+      "options": ["13", "14", "15", "18"],
+      "answer": "15"
+    },
+    {
+      "id": 2,
+      "question": "Which word does not belong with the others: Book, Page, Pen, Chapter?",
+      "options": ["Book", "Page", "Pen", "Chapter"],
+      "answer": "Pen"
+    },
+    {
+      "id": 3,
+      "question": "If 'CLOCK' is coded as 'DMPDL', how is 'WATCH' coded?",
+      "options": ["XBVUI", "XBUUI", "XBSUI", "XBTUI"],
+      "answer": "XBTUI"
+    },
+    {
+      "id": 4,
+      "question": "John is taller than David. David is shorter than Bill. Who is the shortest?",
+      "options": ["John", "David", "Bill", "Can't be determined"],
+      "answer": "David"
+    },
+    {
+      "id": 5,
+      "question": "Find the odd one out: 2, 3, 5, 7, 9, 11.",
+      "options": ["9", "11", "7", "5"],
+      "answer": "9"
+    }
+  ]
+}

@@ -1,0 +1,760 @@
+{
+  "topics": [
+    {
+      "topic": "C++",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What will be the output of the following code?\n\n```cpp\n#include<iostream>\nusing namespace std;\nint main() {\n    int a = 5, b = 2;\n    cout << a / b;\n    return 0;\n}\n```",
+          "options": ["2", "2.5", "Error", "5"],
+          "answer": "2"
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is used to define a class in C++?",
+          "options": ["class", "struct", "define", "object"],
+          "answer": "class"
+        },
+        {
+          "id": 3,
+          "question": "What is the default return type of main() in C++?",
+          "options": ["void", "int", "float", "char"],
+          "answer": "int"
+        },
+        {
+          "id": 4,
+          "question": "Which operator is used to allocate memory dynamically in C++?",
+          "options": ["malloc", "alloc", "new", "create"],
+          "answer": "new"
+        },
+        {
+          "id": 5,
+          "question": "Which of the following is a valid destructor declaration?",
+          "options": ["~ClassName()", "ClassName~()", "destructor ClassName()", "delete ClassName()"],
+          "answer": "~ClassName()"
+        },
+        {
+          "id": 5,
+          "question": "What is the correct way to declare a pointer in C++?",
+          "options": ["int ptr;", "int *ptr;", "ptr int*;", "*int ptr;"],
+          "answer": "int *ptr;"
+        },
+        {
+          "id": 6,
+          "question": "Which function is automatically called when an object is created?",
+          "options": ["Destructor", "Main", "Constructor", "Allocate"],
+          "answer": "Constructor"
+        },
+        {
+          "id": 7,
+          "question": "Which keyword is used to inherit a class in C++?",
+          "options": ["inherits", "extends", "derives", "public"],
+          "answer": "public"
+        },
+        {
+          "id": 8,
+          "question": "Which feature of OOP refers to using the same function name with different signatures?",
+          "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+          "answer": "Polymorphism"
+        },
+        {
+          "id": 9,
+          "question": "Which of the following is the correct syntax to read input in C++?",
+          "options": ["input()", "cin >>", "scan()", "read()"],
+          "answer": "cin >>"
+        },
+        {
+          "id": 10,
+          "question": "What is the output of this code?\n\n```cpp\nint x = 10;\ncout << ++x;\n```",
+          "options": ["10", "11", "12", "Error"],
+          "answer": "11"
+        },
+        {
+          "id": 11,
+          "question": "Which header file is used to use 'cin' and 'cout' in C++?",
+          "options": ["<stdio.h>", "<iostream>", "<conio.h>", "<math.h>"],
+          "answer": "<iostream>"
+        },
+        {
+          "id": 12,
+          "question": "Which concept allows treating derived class objects as base class objects?",
+          "options": ["Abstraction", "Encapsulation", "Upcasting", "Downcasting"],
+          "answer": "Upcasting"
+        },
+        {
+          "id": 13,
+          "question": "What will this code output?\n\n```cpp\nint a = 3, b = 3;\ncout << (a == b);\n```",
+          "options": ["true", "false", "1", "0"],
+          "answer": "1"
+        },
+        {
+          "id": 14,
+          "question": "What is the size of an int variable in C++ (typically)?",
+          "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on OS"],
+          "answer": "4 bytes"
+        },
+        {
+          "id": 15,
+          "question": "What is the return type of 'main' function in C++?",
+          "options": ["void", "int", "main", "float"],
+          "answer": "int"
+        },
+        {
+          "id": 16,
+          "question": "Which keyword is used to prevent a method from being overridden?",
+          "options": ["final", "const", "static", "sealed"],
+          "answer": "final"
+        },
+        {
+          "id": 17,
+          "question": "Which of the following correctly declares an array of 10 integers?",
+          "options": ["int array[10];", "int array();", "array[10] int;", "int[10] array;"],
+          "answer": "int array[10];"
+        },
+        {
+          "id": 18,
+          "question": "Which function is used to release memory allocated by 'new'?",
+          "options": ["release", "free", "delete", "remove"],
+          "answer": "delete"
+        },
+        {
+          "id": 19,
+          "question": "Which looping statement is guaranteed to run at least once?",
+          "options": ["for", "while", "do-while", "None"],
+          "answer": "do-while"
+        },
+        {
+          "id": 20,
+          "question": "Which of the following allows multiple functions with the same name but different parameters?",
+          "options": ["Function overriding", "Function overloading", "Constructor chaining", "Dynamic binding"],
+          "answer": "Function overloading"
+        }
+      ]
+    },
+    {
+      "topic": "C",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which header file is required to use printf() and scanf() functions?",
+          "options": ["<conio.h>", "<stdlib.h>", "<stdio.h>", "<string.h>"],
+          "answer": "<stdio.h>"
+        },
+        {
+          "id": 2,
+          "question": "What will be the output of the following code?\n\n```c\n#include<stdio.h>\nint main() {\n    int a = 10;\n    printf(\"%d\", a++);\n    return 0;\n}```",
+          "options": ["10", "11", "Error", "Undefined"],
+          "answer": "10"
+        },
+        {
+          "id": 3,
+          "question": "Which of the following is the correct syntax to declare a pointer?",
+          "options": ["int *ptr;", "int ptr*;", "*int ptr;", "ptr int*;"],
+          "answer": "int *ptr;"
+        },
+        {
+          "id": 4,
+          "question": "Which function is used to read a character from user input?",
+          "options": ["getchar()", "gets()", "scanf()", "putchar()"],
+          "answer": "getchar()"
+        },
+        {
+          "id": 5,
+          "question": "What is the output of this code?\n\n```c\n#include<stdio.h>\nint main() {\n    printf(\"%d\", sizeof(char));\n    return 0;\n}```",
+          "options": ["1", "2", "4", "8"],
+          "answer": "1"
+        },
+        {
+          "id": 6,
+          "question": "Which keyword is used to prevent a variable from being modified?",
+          "options": ["static", "volatile", "const", "final"],
+          "answer": "const"
+        },
+        {
+          "id": 7,
+          "question": "What will be the output?\n\n```c\n#include<stdio.h>\nint main() {\n    int a = 5;\n    printf(\"%d\", a == 5);\n    return 0;\n}```",
+          "options": ["true", "false", "1", "0"],
+          "answer": "1"
+        },
+        {
+          "id": 8,
+          "question": "Which of the following is not a valid loop in C?",
+          "options": ["for", "while", "repeat-until", "do-while"],
+          "answer": "repeat-until"
+        },
+        {
+          "id": 9,
+          "question": "What is the correct way to declare an array of 5 integers?",
+          "options": ["int arr[5];", "int[5] arr;", "arr int[5];", "int arr;"],
+          "answer": "int arr[5];"
+        },
+        {
+          "id": 10,
+          "question": "What will be the output?\n\n```c\n#include<stdio.h>\nint main() {\n    int a = 5, b = 2;\n    float c = a / b;\n    printf(\"%f\", c);\n    return 0;\n}```",
+          "options": ["2.5", "2.000000", "Error", "Garbage value"],
+          "answer": "2.000000"
+        },
+        {
+          "id": 11,
+          "question": "Which operator is used to get the address of a variable?",
+          "options": ["*", "&", "#", "%"],
+          "answer": "&"
+        },
+        {
+          "id": 12,
+          "question": "Which of the following is not a storage class in C?",
+          "options": ["auto", "static", "public", "register"],
+          "answer": "public"
+        },
+        {
+          "id": 13,
+          "question": "What is the output?\n\n```c\n#include<stdio.h>\nint main() {\n    char ch = 'A';\n    printf(\"%c\", ch+1);\n    return 0;\n}```",
+          "options": ["A", "B", "C", "1"],
+          "answer": "B"
+        },
+        {
+          "id": 14,
+          "question": "What will be printed?\n\n```c\n#include<stdio.h>\nint main() {\n    int a = 2, b = 3;\n    printf(\"%d\", a * b + b);\n    return 0;\n}```",
+          "options": ["9", "8", "7", "6"],
+          "answer": "9"
+        },
+        {
+          "id": 15,
+          "question": "What is the return type of main() in C?",
+          "options": ["void", "int", "char", "float"],
+          "answer": "int"
+        },
+        {
+          "id": 16,
+          "question": "Which function is used to terminate a program immediately?",
+          "options": ["exit()", "end()", "terminate()", "quit()"],
+          "answer": "exit()"
+        },
+        {
+          "id": 17,
+          "question": "What is the output?\n\n```c\n#include<stdio.h>\nint main() {\n    int x = 10;\n    printf(\"%d\", ++x);\n    return 0;\n}```",
+          "options": ["10", "11", "12", "Error"],
+          "answer": "11"
+        },
+        {
+          "id": 18,
+          "question": "Which function is used to concatenate strings in C?",
+          "options": ["stradd()", "strcat()", "concat()", "combine()"],
+          "answer": "strcat()"
+        },
+        {
+          "id": 19,
+          "question": "What does the 'break' statement do in C?",
+          "options": ["Ends the program", "Skips current loop", "Exits the current loop", "Goes to the next iteration"],
+          "answer": "Exits the current loop"
+        },
+        {
+          "id": 20,
+          "question": "What is the default value of a local variable in C?",
+          "options": ["0", "null", "undefined", "Garbage value"],
+          "answer": "Garbage value"
+        }
+      ]
+    },
+    {
+      "topic": "Java",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which of these is a valid keyword in Java?",
+          "options": ["interface", "unsigned", "friend", "goto"],
+          "answer": "interface"
+        },
+        {
+          "id": 2,
+          "question": "What is the size of an int variable in Java?",
+          "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on OS"],
+          "answer": "4 bytes"
+        },
+        {
+          "id": 3,
+          "question": "Which method is the entry point of any Java program?",
+          "options": ["start()", "main()", "run()", "init()"],
+          "answer": "main()"
+        },
+        {
+          "id": 4,
+          "question": "Which of the following is not a Java feature?",
+          "options": ["Object-oriented", "Portable", "Use of pointers", "Dynamic"],
+          "answer": "Use of pointers"
+        },
+        {
+          "id": 5,
+          "question": "What will be the output?\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        int a = 10, b = 3;\n        System.out.print(a / b);\n    }\n}```",
+          "options": ["3.33", "3", "Error", "3.0"],
+          "answer": "3"
+        },
+        {
+          "id": 6,
+          "question": "Which of the following is a wrapper class in Java?",
+          "options": ["int", "Integer", "float", "boolean"],
+          "answer": "Integer"
+        },
+        {
+          "id": 7,
+          "question": "Which exception is thrown when dividing by zero in Java?",
+          "options": ["ArithmeticException", "IOException", "NullPointerException", "NumberFormatException"],
+          "answer": "ArithmeticException"
+        },
+        {
+          "id": 8,
+          "question": "What is the output?\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        int x = 5;\n        System.out.println(++x);\n    }\n}```",
+          "options": ["5", "6", "Error", "7"],
+          "answer": "6"
+        },
+        {
+          "id": 9,
+          "question": "Which keyword is used to inherit a class in Java?",
+          "options": ["this", "super", "extends", "implements"],
+          "answer": "extends"
+        },
+        {
+          "id": 10,
+          "question": "Which of the following is used to handle exceptions in Java?",
+          "options": ["try-catch", "goto", "finally-throw", "break-continue"],
+          "answer": "try-catch"
+        },
+        {
+          "id": 11,
+          "question": "Which collection class allows you to access elements by a unique key?",
+          "options": ["List", "Map", "Set", "Queue"],
+          "answer": "Map"
+        },
+        {
+          "id": 12,
+          "question": "What will be the output?\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        String s = \"Java\";\n        System.out.println(s.length());\n    }\n}```",
+          "options": ["3", "4", "5", "0"],
+          "answer": "4"
+        },
+        {
+          "id": 13,
+          "question": "Which method is used to convert a string to an integer?",
+          "options": ["Integer.parseInt()", "int.parse()", "String.toInt()", "parseInt.String()"],
+          "answer": "Integer.parseInt()"
+        },
+        {
+          "id": 14,
+          "question": "What will be the output?\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3};\n        System.out.println(arr[1]);\n    }\n}```",
+          "options": ["1", "2", "3", "0"],
+          "answer": "2"
+        },
+        {
+          "id": 15,
+          "question": "Which interface must be implemented by all threads?",
+          "options": ["Runnable", "Threadable", "Executor", "Callable"],
+          "answer": "Runnable"
+        },
+        {
+          "id": 16,
+          "question": "Which method must be overridden to create a custom thread?",
+          "options": ["start()", "run()", "main()", "sleep()"],
+          "answer": "run()"
+        },
+        {
+          "id": 17,
+          "question": "Which of these access modifiers makes a member visible to all classes?",
+          "options": ["private", "protected", "public", "default"],
+          "answer": "public"
+        },
+        {
+          "id": 18,
+          "question": "Which keyword is used to prevent method overriding?",
+          "options": ["static", "final", "abstract", "private"],
+          "answer": "final"
+        },
+        {
+          "id": 19,
+          "question": "What is the default value of a reference variable in Java?",
+          "options": ["0", "null", "undefined", "false"],
+          "answer": "null"
+        },
+        {
+          "id": 20,
+          "question": "Which of the following is not a primitive type in Java?",
+          "options": ["int", "boolean", "char", "String"],
+          "answer": "String"
+        }
+      ]
+    },
+    {
+      "topic": "Python",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which of the following is used to define a block of code in Python?",
+          "options": ["Curly braces {}", "Parentheses ()", "Indentation", "Quotation marks"],
+          "answer": "Indentation"
+        },
+        {
+          "id": 2,
+          "question": "What will be the output?\n\n```python\nx = 3\nprint(x ** 2)\n```",
+          "options": ["6", "9", "3", "Error"],
+          "answer": "9"
+        },
+        {
+          "id": 3,
+          "question": "Which of these is not a keyword in Python?",
+          "options": ["pass", "eval", "assert", "nonlocal"],
+          "answer": "eval"
+        },
+        {
+          "id": 4,
+          "question": "What is the output?\n\n```python\nprint(type(10/2))\n```",
+          "options": ["<class 'int'>", "<class 'float'>", "<class 'str'>", "Error"],
+          "answer": "<class 'float'>"
+        },
+        {
+          "id": 5,
+          "question": "What does the `len()` function do in Python?",
+          "options": ["Returns number of elements", "Sorts list", "Appends element", "None"],
+          "answer": "Returns number of elements"
+        },
+        {
+          "id": 6,
+          "question": "Which data structure does not allow duplicate elements?",
+          "options": ["List", "Tuple", "Set", "Dictionary"],
+          "answer": "Set"
+        },
+        {
+          "id": 7,
+          "question": "What is the result?\n\n```python\nprint(bool('False'))\n```",
+          "options": ["False", "True", "None", "Error"],
+          "answer": "True"
+        },
+        {
+          "id": 8,
+          "question": "Which of the following is used to handle exceptions in Python?",
+          "options": ["try-catch", "try-except", "do-catch", "exception-catch"],
+          "answer": "try-except"
+        },
+        {
+          "id": 9,
+          "question": "Which of the following creates a list?",
+          "options": ["[]", "{}", "()", "<>"],
+          "answer": "[]"
+        },
+        {
+          "id": 10,
+          "question": "What will be the output?\n\n```python\na = [1, 2, 3]\nprint(a[-1])\n```",
+          "options": ["1", "2", "3", "-1"],
+          "answer": "3"
+        },
+        {
+          "id": 11,
+          "question": "Which function converts a string to a number?",
+          "options": ["str()", "int()", "list()", "chr()"],
+          "answer": "int()"
+        },
+        {
+          "id": 12,
+          "question": "What will be the output?\n\n```python\nprint(5 // 2)\n```",
+          "options": ["2", "2.5", "3", "Error"],
+          "answer": "2"
+        },
+        {
+          "id": 13,
+          "question": "Which operator is used for exponentiation in Python?",
+          "options": ["^", "**", "//", "^^"],
+          "answer": "**"
+        },
+        {
+          "id": 14,
+          "question": "How do you start a function in Python?",
+          "options": ["function", "define", "def", "func"],
+          "answer": "def"
+        },
+        {
+          "id": 15,
+          "question": "What is the output?\n\n```python\nx = [1, 2, 3]\nprint(x[1])\n```",
+          "options": ["1", "2", "3", "Error"],
+          "answer": "2"
+        },
+        {
+          "id": 16,
+          "question": "Which of the following is immutable?",
+          "options": ["List", "Dictionary", "Tuple", "Set"],
+          "answer": "Tuple"
+        },
+        {
+          "id": 17,
+          "question": "What is the correct file extension for Python files?",
+          "options": [".py", ".java", ".txt", ".pt"],
+          "answer": ".py"
+        },
+        {
+          "id": 18,
+          "question": "What will be the output?\n\n```python\nprint('5' + '5')\n```",
+          "options": ["10", "55", "Error", "5 + 5"],
+          "answer": "55"
+        },
+        {
+          "id": 19,
+          "question": "Which function is used to get user input in Python 3?",
+          "options": ["input()", "raw_input()", "get()", "scan()"],
+          "answer": "input()"
+        },
+        {
+          "id": 20,
+          "question": "What will be the output?\n\n```python\nx = 10\ny = 5\nx, y = y, x\nprint(x, y)\n```",
+          "options": ["10 5", "5 10", "x y", "Error"],
+          "answer": "5 10"
+        }
+      ]
+    },
+    {
+    "topic": "SQL",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Which SQL command is used to retrieve data from a database?",
+        "options": ["GET", "FETCH", "SELECT", "RETRIEVE"],
+        "answer": "SELECT"
+      },
+      {
+        "id": 2,
+        "question": "What will be the output of the following query?\n\n```sql\nSELECT LENGTH('SQL');\n```",
+        "options": ["2", "3", "4", "Error"],
+        "answer": "3"
+      },
+      {
+        "id": 3,
+        "question": "Which clause is used to filter rows in SQL?",
+        "options": ["ORDER BY", "GROUP BY", "WHERE", "HAVING"],
+        "answer": "WHERE"
+      },
+      {
+        "id": 4,
+        "question": "Which of the following is a DDL command?",
+        "options": ["INSERT", "UPDATE", "DROP", "SELECT"],
+        "answer": "DROP"
+      },
+      {
+        "id": 5,
+        "question": "Which keyword is used to sort results?",
+        "options": ["ORDER BY", "SORT", "GROUP BY", "FILTER"],
+        "answer": "ORDER BY"
+      },
+      {
+        "id": 6,
+        "question": "What is the purpose of the PRIMARY KEY?",
+        "options": ["Allow duplicates", "Accept null values", "Uniquely identifies each row", "None"],
+        "answer": "Uniquely identifies each row"
+      },
+      {
+        "id": 7,
+        "question": "What is the output?\n\n```sql\nSELECT 10 % 3;\n```",
+        "options": ["3", "1", "0", "Error"],
+        "answer": "1"
+      },
+      {
+        "id": 8,
+        "question": "Which SQL statement is used to create a new table?",
+        "options": ["INSERT TABLE", "MAKE TABLE", "CREATE TABLE", "NEW TABLE"],
+        "answer": "CREATE TABLE"
+      },
+      {
+        "id": 9,
+        "question": "Which function returns the current date in SQL?",
+        "options": ["CURRENT()", "GETDATE()", "NOW()", "SYSDATE()"],
+        "answer": "GETDATE()"
+      },
+      {
+        "id": 10,
+        "question": "Which of the following SQL clauses is used to group rows with the same values?",
+        "options": ["GROUP BY", "ORDER BY", "JOIN", "UNION"],
+        "answer": "GROUP BY"
+      },
+      {
+        "id": 11,
+        "question": "What is the output?\n\n```sql\nSELECT UPPER('sql');\n```",
+        "options": ["sql", "Sql", "SQL", "error"],
+        "answer": "SQL"
+      },
+      {
+        "id": 12,
+        "question": "What does the `LIKE` operator do?",
+        "options": ["Compares exact values", "Checks nulls", "Matches patterns", "Joins tables"],
+        "answer": "Matches patterns"
+      },
+      {
+        "id": 13,
+        "question": "Which of the following statements is true about INNER JOIN?",
+        "options": ["Returns unmatched rows", "Returns matched rows from both tables", "Returns all rows", "Returns only nulls"],
+        "answer": "Returns matched rows from both tables"
+      },
+      {
+        "id": 14,
+        "question": "Which command removes all rows from a table but keeps the structure?",
+        "options": ["DROP", "DELETE", "TRUNCATE", "REMOVE"],
+        "answer": "TRUNCATE"
+      },
+      {
+        "id": 15,
+        "question": "What does `NULL` represent in SQL?",
+        "options": ["Zero", "Empty string", "Unknown value", "False"],
+        "answer": "Unknown value"
+      },
+      {
+        "id": 16,
+        "question": "What is the output?\n\n```sql\nSELECT ABS(-25);\n```",
+        "options": ["-25", "25", "0", "Error"],
+        "answer": "25"
+      },
+      {
+        "id": 17,
+        "question": "Which SQL clause is used with aggregate functions like SUM()?",
+        "options": ["GROUP BY", "ORDER BY", "WHERE", "DISTINCT"],
+        "answer": "GROUP BY"
+      },
+      {
+        "id": 18,
+        "question": "What will be the output?\n\n```sql\nSELECT COUNT(*) FROM employees WHERE department IS NULL;\n```",
+        "options": ["Counts all", "Counts NULL departments", "Returns 0", "Syntax error"],
+        "answer": "Counts NULL departments"
+      },
+      {
+        "id": 19,
+        "question": "Which statement adds a new row to a table?",
+        "options": ["ADD", "INSERT INTO", "UPDATE", "APPEND"],
+        "answer": "INSERT INTO"
+      },
+      {
+        "id": 20,
+        "question": "Which constraint ensures a column cannot have NULL values?",
+        "options": ["PRIMARY KEY", "UNIQUE", "NOT NULL", "FOREIGN KEY"],
+        "answer": "NOT NULL"
+      }
+    ]
+    },
+    {
+      "topic": "DataStructures",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which data structure uses LIFO (Last In First Out)?",
+          "options": ["Queue", "Array", "Stack", "Linked List"],
+          "answer": "Stack"
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is a linear data structure?",
+          "options": ["Graph", "Tree", "Stack", "Hash Table"],
+          "answer": "Stack"
+        },
+        {
+          "id": 3,
+          "question": "Which data structure allows insertion and deletion at both ends?",
+          "options": ["Queue", "Deque", "Stack", "Heap"],
+          "answer": "Deque"
+        },
+        {
+          "id": 4,
+          "question": "What is the time complexity of binary search on a sorted array?",
+          "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+          "answer": "O(log n)"
+        },
+        {
+          "id": 5,
+          "question": "Which traversal of a binary tree results in sorted order for a BST?",
+          "options": ["Preorder", "Inorder", "Postorder", "Level order"],
+          "answer": "Inorder"
+        },
+        {
+          "id": 6,
+          "question": "Which data structure is best for implementing a recursive function stack?",
+          "options": ["Queue", "Array", "Linked List", "Stack"],
+          "answer": "Stack"
+        },
+        {
+          "id": 7,
+          "question": "What is the maximum number of children a binary tree node can have?",
+          "options": ["1", "2", "3", "Unlimited"],
+          "answer": "2"
+        },
+        {
+          "id": 8,
+          "question": "Which of the following is NOT a self-balancing binary search tree?",
+          "options": ["AVL Tree", "Red-Black Tree", "B Tree", "Binary Heap"],
+          "answer": "Binary Heap"
+        },
+        {
+          "id": 9,
+          "question": "Which of these is used to find the shortest path in a weighted graph?",
+          "options": ["DFS", "BFS", "Dijkstra’s Algorithm", "Prim’s Algorithm"],
+          "answer": "Dijkstra’s Algorithm"
+        },
+        {
+          "id": 10,
+          "question": "What is the height of a complete binary tree with n nodes?",
+          "options": ["log n", "n", "n log n", "sqrt(n)"],
+          "answer": "log n"
+        },
+        {
+          "id": 11,
+          "question": "Which data structure is used for BFS of a graph?",
+          "options": ["Stack", "Queue", "Array", "Tree"],
+          "answer": "Queue"
+        },
+        {
+          "id": 12,
+          "question": "What will be the output of the following code?\n\n```c\nint a = 5;\nint b = 10;\nswap(a, b);\nprintf(\"%d %d\", a, b);\n```\n(Assume normal swap without pointers)",
+          "options": ["10 5", "5 10", "Error", "Depends on compiler"],
+          "answer": "5 10"
+        },
+        {
+          "id": 13,
+          "question": "Which data structure provides constant time complexity for search, insertion, and deletion on average?",
+          "options": ["Linked List", "Hash Table", "Array", "Stack"],
+          "answer": "Hash Table"
+        },
+        {
+          "id": 14,
+          "question": "Which of the following is a non-linear data structure?",
+          "options": ["Queue", "Tree", "Stack", "Array"],
+          "answer": "Tree"
+        },
+        {
+          "id": 15,
+          "question": "What is the minimum number of edges in a tree with n nodes?",
+          "options": ["n", "n-1", "n+1", "n/2"],
+          "answer": "n-1"
+        },
+        {
+          "id": 16,
+          "question": "Which sorting algorithm is the fastest on average?",
+          "options": ["Bubble Sort", "Insertion Sort", "Merge Sort", "Quick Sort"],
+          "answer": "Quick Sort"
+        },
+        {
+          "id": 17,
+          "question": "Which of the following operations is not possible on a singly linked list in constant time?",
+          "options": ["Insert at head", "Delete head", "Insert after node", "Delete last node"],
+          "answer": "Delete last node"
+        },
+        {
+          "id": 18,
+          "question": "Which of the following trees is used in heap sort?",
+          "options": ["Binary Search Tree", "AVL Tree", "Binary Heap", "Segment Tree"],
+          "answer": "Binary Heap"
+        },
+        {
+          "id": 19,
+          "question": "Which condition indicates a circular queue is full?",
+          "options": ["rear == size - 1", "front == rear + 1", "rear == front", "front == -1"],
+          "answer": "front == rear + 1"
+        },
+        {
+          "id": 20,
+          "question": "What is the time complexity of enqueue operation in a queue implemented using a linked list?",
+          "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+          "answer": "O(1)"
+        }
+      ]
+    }
+  ]
+}
