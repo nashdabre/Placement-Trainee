@@ -66,7 +66,7 @@ Placement Trainee is an Android application built with **Kotlin** and **Jetpack 
 
 ## 📹 Demo Video
 
-[[Watch Demo](https://drive.google.com/file/d/1rrPdMs1qlBjU5EuttA5U2hl1pGi_RDKN/view?usp=sharing)](#) 
+[[Watch Demo](https://drive.google.com/file/d/1rrPdMs1qlBjU5EuttA5U2hl1pGi_RDKN/view?usp=sharing)]
 
 ---
 
